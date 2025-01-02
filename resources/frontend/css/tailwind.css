@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply max-w-[1320px] w-full mx-auto px-5
+}
+
+.icon-hidden{
+    @apply hidden
+}
+.hover-animate{
+    @apply transition-all ease-in duration-200;
+}

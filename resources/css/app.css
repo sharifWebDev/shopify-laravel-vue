@@ -1,0 +1,10 @@
+
+
+/*  */
+@import "@shopify/polaris/build/esm/styles.css";
+/* @import "@shopify/polaris-tokens/dist/scss/media-queries";    */
+
+.bar-publish-scheduling .Polaris-TextField__Input,
+.countdown .Polaris-TextField__Input{
+    display: block!important;
+}
